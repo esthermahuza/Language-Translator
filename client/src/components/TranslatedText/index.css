@@ -1,0 +1,23 @@
+/* TranslatedText.css */
+
+.translated-section {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.translated-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.translated-text {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none; /* remove the border */
+  background-color: #f4f4f4; /* light gray background */
+  border-radius: 4px;
+  resize: none; /* prevent user from resizing textarea */
+}

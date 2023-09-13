@@ -1,0 +1,33 @@
+/* SelectLanguage.css */
+.language-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Add this line to center align items vertically */
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.language-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.language-dropdown label {
+  margin-bottom: 10px;
+}
+
+.language-dropdown select {
+  width: 200px;
+  padding: 5px;
+}
+
+.swap-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0 15px; /* Adjust for spacing */
+  padding: 5px 10px; /* Give it some padding */
+}

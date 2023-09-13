@@ -1,0 +1,13 @@
+/* SourceText.css */
+
+.source-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  /* These two properties will center it horizontally. */
+  margin-left: auto;
+  margin-right: auto;
+}
